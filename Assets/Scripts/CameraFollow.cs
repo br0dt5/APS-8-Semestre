@@ -4,16 +4,41 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField] private Transform target;
+    private Transform target;
 
-    Vector3 camOffset;
+    private Vector3 camOffset;
+
     void Start()
     {
-        camOffset = transform.position - target.position;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            SetTarget(player.transform);
+        }
+        else
+        {
+            Debug.LogWarning("Player não encontrado para a câmera seguir.");
+        }
+
+        if (target != null)
+        {
+            camOffset = transform.position - target.position;
+        }
     }
-    
+
+
     void FixedUpdate()
     {
-        transform.position = target.position + camOffset;
+        if (target != null)
+        {
+            transform.position = target.position + camOffset;
+        }
+    }
+
+    // Método para definir o alvo da câmera
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+        camOffset = transform.position - target.position;
     }
 }
