@@ -9,8 +9,7 @@ using Photon.Pun;
 public class Player : MonoBehaviour
 {
     public float speed;
-
-    PhotonView view;
+    private PhotonView view;
 
     private void Start()
     {

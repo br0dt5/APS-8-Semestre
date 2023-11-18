@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2563145194946113818}
-  - component: {fileID: 2563145194946113823}
   - component: {fileID: 2563145194946113816}
   - component: {fileID: 2563145194946113817}
   - component: {fileID: 2563145194946113822}
@@ -36,70 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2563145194946113823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2563145194946113819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a93f600dc6fcb49a8a0498adeeb44d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  body: {fileID: 2563145194946113817}
-  spriteRenderer: {fileID: 2563145194946113816}
-  nSprites:
-  - {fileID: 21300000, guid: 7c69a25f5a4925e479868f3f3fdf688e, type: 3}
-  - {fileID: 21300000, guid: 4026bd34c246b404d863e9e8e3e28767, type: 3}
-  - {fileID: 21300000, guid: baa86eab0f83a6947a6ed24db944d760, type: 3}
-  - {fileID: 21300000, guid: f043aede49a959645acbe4883076b45a, type: 3}
-  - {fileID: 21300000, guid: 85d069905891b7f4686812ee36759fd7, type: 3}
-  - {fileID: 21300000, guid: 859a284c6a56dea4788a06717d92bce5, type: 3}
-  - {fileID: 21300000, guid: 1c855f9d6c20fb04088e6df94ac39344, type: 3}
-  - {fileID: 21300000, guid: c54d7730ee047c949875841e2d2ed99d, type: 3}
-  - {fileID: 21300000, guid: 018651e7f97bec548bd7514343fbacbd, type: 3}
-  neSprites:
-  - {fileID: 21300000, guid: 1a23b94c38f7d7943bf58ce25a98c3c1, type: 3}
-  - {fileID: 21300000, guid: 4500747d2d732344093b15cfc7a6f5a0, type: 3}
-  - {fileID: 21300000, guid: 62844e3d6fa8971488d9f4e38a8dc0d6, type: 3}
-  - {fileID: 21300000, guid: d1a7af4fd9f64f5408fd8815833caf4d, type: 3}
-  - {fileID: 21300000, guid: e7ab8bd4eef83ca439f5d7bc52d76fd2, type: 3}
-  - {fileID: 21300000, guid: cd0dc3fcd437e764db55eeb4c08559ae, type: 3}
-  - {fileID: 21300000, guid: 4033c79beb857ad42916d6f3df6a1950, type: 3}
-  - {fileID: 21300000, guid: d2064e38f21df2d42af168a3b0c27859, type: 3}
-  eSprites:
-  - {fileID: 21300000, guid: 74edf7c6b1f527f429b967e8910c9098, type: 3}
-  - {fileID: 21300000, guid: 181e18ce85954ac42adb02087b593a1f, type: 3}
-  - {fileID: 21300000, guid: ceb51fb6f1863134b89458cbd538e5ac, type: 3}
-  - {fileID: 21300000, guid: 855258a3106f559429f884e85d6b3e98, type: 3}
-  - {fileID: 21300000, guid: 9ae8455f55396424db0702e66bed3043, type: 3}
-  - {fileID: 21300000, guid: 056806e8cffd11448881e64abb717b25, type: 3}
-  - {fileID: 21300000, guid: c12adf4e47feebc48b08ae320df2ffc4, type: 3}
-  - {fileID: 21300000, guid: b58912e9673e4cb4098b97a8d28bb79d, type: 3}
-  seSprites:
-  - {fileID: 21300000, guid: 74edf7c6b1f527f429b967e8910c9098, type: 3}
-  - {fileID: 21300000, guid: 181e18ce85954ac42adb02087b593a1f, type: 3}
-  - {fileID: 21300000, guid: ceb51fb6f1863134b89458cbd538e5ac, type: 3}
-  - {fileID: 21300000, guid: 855258a3106f559429f884e85d6b3e98, type: 3}
-  - {fileID: 21300000, guid: 9ae8455f55396424db0702e66bed3043, type: 3}
-  - {fileID: 21300000, guid: 056806e8cffd11448881e64abb717b25, type: 3}
-  - {fileID: 21300000, guid: c12adf4e47feebc48b08ae320df2ffc4, type: 3}
-  - {fileID: 21300000, guid: b58912e9673e4cb4098b97a8d28bb79d, type: 3}
-  sSprites:
-  - {fileID: 21300000, guid: 2f4415a7a3a23e341b961fb513f85ee5, type: 3}
-  - {fileID: 21300000, guid: 9a96a2c5477073647923027bfe2b3f8e, type: 3}
-  - {fileID: 21300000, guid: 2c776276f8e16804791667b7d97cfee9, type: 3}
-  - {fileID: 21300000, guid: 0d1aac0f7c45bf04b91b4adafd7c3073, type: 3}
-  - {fileID: 21300000, guid: 114a6a60295da4b49a3ea27e7c156b63, type: 3}
-  - {fileID: 21300000, guid: 351809bc974615b499b44d0305a3f061, type: 3}
-  - {fileID: 21300000, guid: 91883e9103079bb49a83bced6cb3ebe1, type: 3}
-  - {fileID: 21300000, guid: 3753ad724d63b1e46965812402f8076d, type: 3}
-  - {fileID: 21300000, guid: 01a26456af9669e4eb6b732c1c5492c5, type: 3}
-  walkSpeed: 2
-  frameRate: 12
-  idleTime: 0
 --- !u!212 &2563145194946113816
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -184,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6ba184e199d2340b1f1c45eb63ee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 2
 --- !u!114 &4435684287086351701
 MonoBehaviour:
   m_ObjectHideFlags: 0
